@@ -149,7 +149,7 @@ python run_michel.py \
 ```
 where `num_of_heads` is the number of heads to prune (mask) at each step.
 ## Enc-Dec on IWSLT
-Install the Transformer library adapted from [Fairseq](https://github.com/pytorch/fairseq):
+Install the fairseq library adapted from [Fairseq](https://github.com/pytorch/fairseq):
 ```
 cd fairseq
 pip install -e .
