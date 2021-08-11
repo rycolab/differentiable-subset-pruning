@@ -1,5 +1,5 @@
 # differential-subset-pruning
-This repository is accompany with the paper: [Differential Subset Pruning of Transformer Heads]().
+This repository is accompany with the paper: [Differential Subset Pruning of Transformer Heads](https://arxiv.org/abs/2108.04657).
 
 ## Dependencies
 - python 3.7.4
