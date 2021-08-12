@@ -67,7 +67,7 @@ python run_dsp.py \
 	--save_steps 10000 \
 	--num_of_heads 12 \
 	--pruning_lr 0.5 \
-    --use_ste \
+    	--use_ste \
 	--joint_pruning 
 ```
 #### Voita et al. 
@@ -145,7 +145,7 @@ python run_michel.py \
 	--cache_dir cache/ \
 	--tokenizer_name bert-base-uncased \
 	--exact_pruning \
-    --num_of_heads 12 
+    	--num_of_heads 12 
 ```
 where `num_of_heads` is the number of heads to prune (mask) at each step.
 ## Enc-Dec on IWSLT
@@ -278,7 +278,7 @@ fairseq-train \
 ```
 #### Pipelined DSP
 ```
-export SAVE_DIR=dropout_checkpoints/pipelined/
+export SAVE_DIR=dsp_checkpoints/pipelined/
 
 python run_dsp.py \
     data-bin/ \
